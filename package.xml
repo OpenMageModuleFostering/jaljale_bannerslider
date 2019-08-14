@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>Jaljale_BannerSlider</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Responsive Bannerslider allows displaying custom slide show in home. Built on top of Bootstrap, it is highly customizable, user friendly and easy to use. It&#x2019;s designed and developed with responsive design. Hence, it supports different devices - Mobile, Tablet and Computers. Admin can manage the complete slideshow from the module management including images upload, update, delete.</summary>
+    <description>Features: &#xD;
+&#xD;
+* Fully dynamic and fully responsive on all mobile devices and screen size (ie mobile, tablets, desktop etc) &#xD;
+* All modern browsers supported including IE7+ , Firefox , Safari and Chrome .&#xD;
+* Silk effect, no Flash needed fully based on JavaScript .&#xD;
+* Admin Driven module, user can add any no of images/slides&#xD;
+*  Easy to install, just move your app folder in Magento root folder.&#xD;
+* Adjust width, height and transaction speed as per your need.&#xD;
+* No programming skills required&#xD;
+* Easy to install and configure</description>
+    <notes>* Bugs fixes</notes>
+    <authors><author><name>Krish</name><user>jaljale</user><email>jaljaletech@gmail.com</email></author><author><name>Subin Shrestha</name><user>sthasbin</user><email>sthasbin@jaljale.com</email></author></authors>
+    <date>2015-06-15</date>
+    <time>11:47:03</time>
+    <contents><target name="magecommunity"><dir name="Jaljale"><dir name="Banner"><dir name="Block"><dir name="Adminhtml"><dir name="Renderer"><file name="Image.php" hash="7bb70eb455f34a84181a39e40345e665"/></dir><dir name="Slider"><dir name="Edit"><file name="Form.php" hash="a4cf7a964dfca2d19c800e377e8acff6"/><dir name="Tab"><file name="Form.php" hash="ca46e0999a38910e4a15ba3174989599"/></dir><file name="Tabs.php" hash="0537a954a8efdf7895065d3bbff91856"/></dir><file name="Edit.php" hash="c660e27dc4ab9b066c11fe82d2d107e9"/><file name="Grid.php" hash="e65d4fd78df111b197af34daa5806707"/></dir><file name="Slider.php" hash="abc575434e4309dfc283081adc4a9423"/></dir><file name="Index.php" hash="4a7c4c98f6bb7ba4a9d80ec133af2a62"/></dir><dir name="Helper"><file name="Data.php" hash="15796a916f850baddbb650b844aa4a4a"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Slider"><file name="Collection.php" hash="b004d75dc64b2f6f0f37a8a5cfe946c0"/></dir><file name="Slider.php" hash="d535791ff1739cc3a7559914d2930916"/></dir><file name="Slider.php" hash="f5eb593cc610e960dfb8c4c231d9de7e"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="SliderController.php" hash="6c893bbbde1f780a5c2a9f7cfa9b0817"/></dir><file name="IndexController.php" hash="2380b268175b38e716aca991478bfe29"/></dir><dir name="etc"><file name="adminhtml.xml" hash="20ac41122a127136472f536d15cca456"/><file name="config.xml" hash="fb3b8bf0e538783bcd92ab5d6a91fba7"/><file name="system.xml" hash="090e543483af372c5e684663535d80a0"/></dir><dir name="sql"><dir name="banner_setup"><file name="mysql4-install-0.1.0.php" hash="24f54bfd573f9102dcc5e6bb2d4dd66c"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="banner.xml" hash="c0ef7852090bd32f729229adfb8ecae9"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="banner"><file name="index.phtml" hash="2983aae1f32bb9189ee6433ec40692de"/></dir></dir><dir name="layout"><file name="banner.xml" hash="b92d37f8295ff1884be5c9008c830259"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="jaljale_banner.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.3</min><max>6.5.5</max></php></required></dependencies>
+</package>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<jaljale translate="label" module="banner">
+            <label>Jaljale</label>
+            <sort_order>0</sort_order>
+        </jaljale>
+	  </tabs>
+	  <sections>
+		<slider translate="label" module="banner">                    
+		<label>Banner Slider</label>
+		<tab>jaljale</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>1</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <option translate="label"> 
+					  <label>Banner Slider Option</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+				       	 <indicator translate="label">
+                            <label>Display Indicators</label>
+							<frontend_type>radios</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>Show/hide Indicators</comment>
+                          </indicator>
+				       	 <control translate="label">
+                            <label>Display Controls</label>
+							<frontend_type>radios</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>Show/hide Previous and Next buttons</comment>
+                          </control>
+				       	  <loop translate="label">
+                            <label>Loop</label>
+							<frontend_type>radios</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>Whether the carousel should cycle continuously or have hard stops.</comment>
+                          </loop>
+                          <speed translate="label">
+                            <label>Transaction Interval</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>In milisecs (Default 5000)</comment>
+                          </speed>
+                          <width translate="label">
+                            <label>Banner Width</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>Banner Width (Default 100%)</comment>
+                          </width>
+                          <height translate="label">
+                            <label>Banner Height</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>Banner Height (Default auto)</comment>
+                          </height>
+					   </fields>
+					   </option>
+					</groups>
+		</slider>
+	  </sections>
+</config>
