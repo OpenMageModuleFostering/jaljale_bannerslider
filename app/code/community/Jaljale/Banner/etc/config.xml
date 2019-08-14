@@ -4,7 +4,7 @@
 	    <slider>
 	        <option>                
 	            <width>100%</width>
-	            <height></height>
+	            <height>300px</height>
 	            <loop>1</loop>
 	            <speed>5000</speed>
 	            <control>1</control>

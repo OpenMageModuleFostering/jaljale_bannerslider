@@ -79,7 +79,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
-							<comment>Banner Height (Default auto)</comment>
+							<comment>Banner Height (Default 300px)</comment>
                           </height>
 					   </fields>
 					   </option>

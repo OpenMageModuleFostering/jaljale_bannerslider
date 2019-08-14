@@ -1,0 +1,50 @@
+#banner-slides >.container-fluid {
+    padding: 0px;
+}
+
+.carousel-indicators .active {
+    width: 4%;
+    min-height: 4px;
+    min-width: 20px;
+    height: 8px;
+}
+
+.carousel-indicators li {
+    list-style-type: none;
+    border-radius: 0px;
+    width: 4%;
+    min-height: 4px;
+    min-width: 20px;
+    height: 8px;
+}
+
+.carousel-indicators {
+    bottom: 1px;
+}
+
+.carousel-caption >a {
+    border: none;
+    background-color: transparent;
+    /* font-weight: bold; */
+    
+    font-family: pnregular;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.carousel-caption >h1 {
+    font-family: dancing;
+    font-size: 60px;
+    letter-spacing: 2;
+    margin-top: 0px;
+}
+
+.carousel-caption >p {
+    font-family: proximanovaregular;
+    letter-spacing: 2px;
+    font-size: 20px;
+    word-spacing: 2px;
+}

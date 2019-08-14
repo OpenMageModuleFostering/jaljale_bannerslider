@@ -1,8 +1,8 @@
 <?php
 
-	$height = Mage::getStoreConfig('slider/option/height'); 
+	$height = Mage::getStoreConfig('slider/option/height')?Mage::getStoreConfig('slider/option/height'):'300px'; 
 
-	$width = Mage::getStoreConfig('slider/option/width');
+	$width = Mage::getStoreConfig('slider/option/width')?Mage::getStoreConfig('slider/option/width'):'100%';
 
 	$speed = Mage::getStoreConfig('slider/option/speed');
 
@@ -36,7 +36,7 @@
 						foreach($collection as $item)
 						{
 						?>
-							<div class="item"><img style="width: 100%; overflow: hidden;" src="<?php echo Mage::helper('banner')->getImage($item) ?>" alt="..." />
+							<div class="item"><img style="width: 100%;height:<?php echo $height; ?>; overflow: hidden;" src="<?php echo Mage::helper('banner')->getImage($item) ?>" alt="..." />
 								<div class="carousel-caption">
 									<h1><?php echo $item->getData('image_title'); ?></h1>
 									<p><?php echo $item->getData('image_caption'); ?></p>

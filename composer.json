@@ -1,9 +1,10 @@
 {
     "name": "OpenMageModuleFostering/Jaljale_BannerSlider",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
-    "description": "Responsive Bannerslider allows displaying custom slide show in home. Built on top of Bootstrap, it is highly customizable, user friendly and easy to use. It’s designed and developed with responsive design. Hence, it supports different devices - Mobile, Tablet and Computers. Admin can manage the complete slideshow from the module management including images upload, update, delete.",
+    "description": "Responsive Bannerslider allows displaying custom slide show in home. Built on top of Bootstrap, it is highly customizable, user friendly and easy to use. It’s designed and developed with responsive design. Hence, it supports different devices - Mobile, Tablet and Computers. Admin can manage the complete slideshow from the module management including images upload, update, delete.
+",
     "authors": [
     {
         "name": "Krish",
